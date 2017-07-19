@@ -1,0 +1,117 @@
+html,
+body {
+  padding: 0;
+  margin:0;
+}
+body {
+  font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+}
+
+a {
+  -webkit-transition: all 0.35s;
+  -moz-transition: all 0.35s;
+  transition: all 0.35s;
+  color: #F05F40;
+}
+a:hover,
+a:focus {
+  color: #eb3812;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  text-transform: uppercase;
+}
+p {
+  font-size: 13px;
+  line-height: 2.0;
+  margin-bottom: 20px;
+}
+
+.navbar-default {
+  background-color: rgba(0,0,0,.4);
+  border-color: rgba(34, 34, 34, 0.05);
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  -webkit-transition: all 0.35s;
+  -moz-transition: all 0.35s;
+  transition: all 0.35s;
+}
+
+/*contact start*/
+  .office{
+    height: 400px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+  }
+  .office span{
+    background-color: rgba(0,0,0,.6);
+    color: white;
+    padding: 10px;
+  }
+  .office span a{
+    text-decoration: none;
+    padding-top:0;
+    margin-top: 0;
+  }
+  .office-heading{
+    width: 100%;
+    border-bottom: 1px solid #E65100;
+    padding: 20px;
+  }
+  .office-1{
+    background: url(../img/13.jpg);
+    background-size: cover;
+  }
+  .office-2{
+    background: url(../img/14.jpg);
+    background-size: cover;
+  }
+  .some-text{
+    text-align: center;
+    padding: 30px 0;
+  }
+  .office-heading-2{
+    width: 65%;
+    margin: 20px auto;
+    padding: 10px 0;
+    border-bottom: 1px solid #E65100;
+  }
+
+  .contact-form input{
+    padding: 5px;
+    width: 300px;
+  }
+
+
+  .form-div{
+    height: 600px;
+  }
+/*contact end*/
+
+/*footer start*/
+  .footer{
+    background-color: rgb(74,74,74);
+    box-shadow: 0px 0px 5px 1px black;
+  }
+  .footer-div{
+    color: rgb(221,221,221);
+    margin-bottom: 0;
+  }
+  .footer-heading{
+    width: 100%;
+    padding-bottom: 10px;
+    box-shadow: 0 2px 0px 0 #212121;
+  }
+  .social{
+    margin-right: 20px;
+    cursor: pointer;
+  }
+  .social:hover{
+    color: #F5F5F5;
+  }
+/*footer start*/

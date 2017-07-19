@@ -1,0 +1,149 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+  .left-div{
+  	height: 550px;
+  }
+  .right-div{
+  	height: 550px;
+  }
+  body h1{
+    	font-size: 240%;
+  }
+  body h3{
+    	font-size: 160%;
+  }
+  body p{
+    	font-size: 90%;
+  }
+  .text-slider {
+  text-align: center;
+  width: 70%;
+  left: 15%;
+}
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+ .about-div{
+ 	  width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .show-div{
+  	display: block;
+  }
+  .hide-div{
+  	display: none;
+  }
+  .hide-img{
+  }
+  .left-div{
+  	height: auto;
+    width: 100%;
+  }
+  .right-div{
+  	height: 570px;
+  }
+  body h1{
+    	font-size: 220%;
+  }
+  body h3{
+    	font-size: 140%;
+  }
+  body p{
+    	font-size: 90%;
+  }
+  .text-slider {
+  text-align: center;
+  width: 70%;
+  left: 15%;
+}
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+  
+  #about{
+    width: 100%;
+    height:auto;
+  }
+  .show-div{
+  	display: block;
+  }
+  .hide-div{
+  	display: none;
+  }
+  .left-div{
+  	height: auto;
+  	padding-right: 0;
+    width: 100%;
+  }
+  .right-div{
+  	height: 500px;
+  	margin-left: 0;
+  }
+  .hide-img{
+    display: none;
+  }
+  body h1{
+    	font-size: 200%;
+  }
+  body h3{
+    	font-size: 120%;
+  }
+  body p{
+    	font-size: 80%;
+  }
+  .team-member{
+    height: auto;
+
+  }
+  .team-member img{
+    width: 150px;
+    height: 150px;
+    border:2px solid #EF6C00;
+    margin: 0 auto;
+  }
+  .text-slider {
+  text-align: center;
+  width: 100%;
+  left: 0;
+}
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+  
+  #about{
+    width: 100%;
+    height:auto;
+  }
+  .show-div{
+    display: block;
+  }
+  .hide-div{
+    display: none;
+  }
+  .left-div{
+    height: auto;
+    padding-right: 0;
+    width: 100%;
+  }
+  
+  .hide-img{
+    display: none;
+  }
+  body h1{
+      font-size: 200%;
+  }
+  body h3{
+      font-size: 120%;
+  }
+  body p{
+      font-size: 80%;
+  }
+  .text-slider {
+  text-align: center;
+  width: 100%;
+  left: 0;
+}
+}
